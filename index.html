@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Pool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/shortcut_logo.png">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="index.html" class="header_logo">
+                    <img src="img/logo_main.png" alt="">
+                    <h1>flightpool</h1>
+                </a>
+
+                <div class="header_nav">
+                    <ul>
+                        <li><a class="test-0-nav-1" href="">Акции</a></li>
+                        <li><a class="test-0-nav-2" href="search.html">Поиск</a></li>
+                        <li><a class="test-0-nav-3" href="register.html">Регистрация на рейс</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main_menu">
+        <div class="search_ticket">
+            <div class="container">
+                <div class="search_intro">
+                    <h1>Мы сближаем города, вы - живете там,<br> где хотите.</h1>
+                </div>
+                <form class="form_search" action="search.html">
+                    <input class="search_input test-0-fd" type="text" placeholder="Откуда">
+                    <input class="search_input test-0-fa" type="text" placeholder="Куда">
+                    <input class="search_input test-0-fdt-" onfocus="this.type='date'" onblur="this.type='text'" type="text" placeholder="Туда">
+                    <input class="search_input test-0-fat" onfocus="this.type='date'" onblur="this.type='text'" type="text" placeholder="Обратно">
+                    <input class="search_input test-0-fnp" type="number" min="1" max="8" placeholder="К-во пасажиров">
+                    <input class="search_input test-0-fbs" type="submit" value="Искать">
+                </form>
+            </div>
+        </div>
+
+        <div class="accum_principle">
+            <div class="container">
+                <div class="accum_principle_on">
+                    <h1 class="accum_principle_h">Принцип накопления бронирований</h1>
+                    <div class="all_principles fadeIn">
+                        <div class="principle">
+                            <img src="img/principle1.jpg" alt="">
+                            <div class="principle_h">
+                                <p>1. Выбрать удобную дату перелёта</p>
+                            </div>
+                        </div>
+                        <div class="principle">
+                            <img src="img/principle2.jpg" alt="">
+                            <div class="principle_h">
+                                <p>2. Накопить больше 50% бронирований на рейс</p>
+                            </div>
+                        </div>
+                        <div class="principle">
+                            <img src="img/principle3.jpg" alt="">
+                            <div class="principle_h">
+                                <p>3. Получить снижение стоимости</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="main_sales">
+            <div class="container">
+                <div class="main_sales_on">
+                    <h1 class="main_sales_h">Акции</h1>
+                    <div class="all_sales fadeIn">
+                        <div class="sale fade">
+                            <div class="sale_img">
+                                <img class="test-0-ai" src="img/sale1.jpg" alt="">
+                            </div>
+                            <div class="sale_opis">
+                                <h2 class="<test-0-an">2 как 1</h2>
+                                <p class="second_p_sales test-0-ad">Приобретите два билета по цене одного при первом полёте!</p>
+                            </div>
+                        </div>
+                        <div class="sale fade">
+                            <div class="sale_img">
+                                <img class="test-0-ai" src="img/sale2.jpg" alt="">
+                            </div>
+                            <div class="sale_opis">
+                                <h2 class="test-0-an">Номер в подарок</h2>
+                                <p class="second_p_sales test-0-ad">При покупке от 4-х билетов получите
+                                номер в 4-х звездочном отеле на 3 дня бесплатно!</p>
+                            </div>
+                        </div>
+                        <div class="sale fade">
+                            <div class="sale_img">
+                                <img src="img/sale3.jpg" alt="">
+                            </div>
+                            <div class="sale_opis">
+                                <h2> 6 = 8</h2>
+                                <p class="second_p_sales">При покупе от 6-ти билетов 7-ой и 8-й вы получите бесплатно!</p>
+                            </div>
+                        </div>
+                        <div class="sale fade">
+                            <div class="sale_img">
+                                <img src="img/claso_sale.jpg" alt="">
+                            </div>
+                            <div class="sale_opis">
+                                <h2>Подписаться на закрытые акции</h2>
+                                <div class="closed_sales">
+                                    <input class="close_sales_email" type="email" placeholder="Введите свой email">
+                                    <input class="second_p_sales close_sales_sign " type="button" value="Подписаться">
+                                </div>
+                            </div>
+                        </div>
+                        <a onclick="plusSlides(-1)" class="prev">&#10094</a>
+                        <a onclick="plusSlides(1)" class="next">&#10095</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</div>
+    <footer>
+        <div class="container">
+           <div class="footer">
+               <div class="footer_inf">
+                   <p class="test-0-phone">Телефон: 8 (800) 100-10-10</p>
+                   <a href=”http://xxxxxx-m1.wsr.ru/return”>Возврат</a>
+                   <a href=”http://xxxxxx-m1.wsr.ru/feedback”>Обратная связь</a>
+               </div>
+               <div class="footer_nav">
+                   <a class="test-0-nav-1" href="">Акции</a>
+                   <a class="test-0-nav-2" href="">Поиск</a>
+                   <a class="test-0-nav-3" href="">Регистрация на рейс</a>
+               </div>
+           </div>
+        </div>
+
+    </footer>
+</div>
+
+
+
+</body>
+</html>
